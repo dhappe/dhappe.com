@@ -1,0 +1,93 @@
+.footer {
+  background: #FBF0B9;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #000;
+}
+
+.footer-contato{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contato h3 {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #000;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.footer-contato h3::before {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -50px;
+  top: 3px;
+}
+
+.email h3::before {
+  background: url("/img/envelope.svg") no-repeat center center;
+}
+
+.telefone h3::before {
+  background: url("/img/mobile-android.svg") no-repeat center center;
+}
+
+.social h3::before {
+  background: url("/img/instagram.svg") no-repeat center center;
+}
+
+.footer-contato h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-copy {
+  grid-column: 1 / -1;
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato h3 {
+    font-size: 1.5rem;
+  }
+
+.footer-contato h3::before{
+  align-items: center;
+}
+
+.email h3::before {
+  background: none;
+}
+
+.telefone h3::before {
+  background: none;
+}
+
+.social h3::before {
+  background: none;
+}
+
+}

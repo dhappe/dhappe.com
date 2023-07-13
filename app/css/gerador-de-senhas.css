@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.bdsenha{
+    background-color: hsl(50, 89%, 85%);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.header img{
+    width: 200px;
+}
+
+.voltar{
+    margin-left: 35px;
+    background-color: #fff;
+    padding: 8px;
+    color: #67717E;
+    font-weight: 400;
+    transition: .3s;
+    border-radius: 3px;
+}
+
+.voltar:hover{
+    background-color: #67717E;
+    color: #fff;
+}
+
+span{
+    margin-left: 15px;
+}
+
+
+.pw-container {
+    background-color: #67717E;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    border-radius: 2rem;
+    color: white;
+    align-items: left;
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 25px;
+}
+
+.pw-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.pw {
+    background-color: hsl(214, 10%, 80%);
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 360px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    border-radius: 4rem;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+    }
+
+ .pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+
+
+.pw-body {
+    padding-right: 20px;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+input {
+    border-radius: 5px;
+}
+
+
+.generate {
+    background-color: #d1cfca;
+    border: none;
+    border-radius: 4rem;
+    color: #67717E;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
