@@ -16,7 +16,7 @@ const Home = () => {
       </Head>
 
       <header className="header">
-        <img src="./img/dhappe_logo.svg" alt="Logo empresa dhappe" width="104" height="38" class="dhappe"/>
+        <img src="./img/dhappe_logo.svg" alt="Logo empresa dhappe" width="104" height="38" className="dhappe"/>
         <nav>
           <ul className="header-menu">
             <li><a href="#experiencia">Experiência</a></li>
@@ -122,9 +122,7 @@ const Home = () => {
                 <h3>Cursos Intensivos</h3>
                 <ul>
                   <li>UX Design &amp; UI Design <span>60h</span></li>
-                  <li
-
->Front End para Iniciantes <span>60h</span></li>
+                  <li>Front End para Iniciantes <span>60h</span></li>
                   <li>JavaScript<span>72h</span></li>
                   <li>React Native<span>72h</span></li>
                 </ul>
